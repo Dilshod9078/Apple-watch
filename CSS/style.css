@@ -1,0 +1,408 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../Fonts/Roboto-Black.woff') format('woff'),
+    url('../Fonts/Roboto-Black.woff2') format('woff2');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../Fonts/Roboto-Light.woff2') format('woff2'),
+    url('../Fonts/Roboto-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../Fonts/Roboto-Bold.woff2') format('woff2'),
+    url('../Fonts/Roboto-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('../Fonts/Roboto-Regular.woff2') format('woff2'),
+    url('../Fonts/Roboto-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+body{
+    font-family: 'Roboto' , sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+.container{
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+/* Header style start  */
+.header{
+    margin-top: 35px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-list{
+    display: flex;
+}
+.header-item{
+    margin-left: 30px;
+    color: #333;
+    /* text-align: center; */
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%
+}
+
+.header-item-first{
+    margin-left: 0;
+}
+.header-item-inner{
+    /* width: 149px;
+    height: 23px; */
+    display: flex;
+    margin-left: 40px;
+    flex-direction: column;
+}
+.header-navlink{
+    color: #333;
+     text-align: center; 
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%
+}
+.header-navlink:hover{
+    color:  black;
+    text-align: center; 
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%
+}
+.home-light{
+    color: #666;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.header-line{
+    /* padding-top: 5px; */
+    width: 149px;
+    height: 1px;
+    display: inline-block;
+    background-color: black;
+}
+/* Header style end  */
+
+
+/* Hero style start  */
+.hero-section{
+    padding-top: 91px;
+    padding-bottom: 183px;
+    background-image: url("../Images/watches.png");
+    background-size:  587px 565px;
+    background-repeat: no-repeat;
+    background-position-y: calc(50% + 10%);
+    background-position-x: calc(50% + 670px);
+}
+.hero{
+    width: 490px;
+    height: 291px;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: flex-start;
+    /* gap: 30px; */
+}
+.hero-content{
+    display: flex;
+}
+.hero-title{
+    margin-bottom: 30px;
+    color: #000;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+.hero-line{
+    width: 5px;
+    height: 115px;
+    margin-right: 40px;
+    display: inline-block;
+    background-color: #888;
+}
+.hero-text{
+    margin-bottom: 30px;
+    color: #777;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+.hero-link{
+    width: 260px;
+    height: 61px;
+    padding: 12px;
+    background-color: #EA625C;
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+.hero-link:hover{
+    width: 260px;
+    height: 61px;
+    padding: 12px;
+    background-color:white ;
+    color: #EA625C;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+    text-transform: uppercase;
+    border: 2px solid #EA625C;
+}
+/* Hero style end  */
+
+/* Feature style start  */
+
+.feature-section{
+    margin: 70px;
+}
+.feature-run{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+.feature-list{
+    width: 280px;
+    height: 253px;
+}
+.feature-item-inner{
+    width: 149px;
+    height: 26px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.feature-line-inner{
+    width: 40px;
+    height: 3px;
+    background-color: #EA625C;
+}
+.feature-title{
+    margin-bottom: 30px;
+    color: #222;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+    text-transform: uppercase;
+}
+.feature-text{
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; 
+}
+.feature-inner{
+    width: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.feature-line{
+    width: 8px;
+    height: 8px;
+    display: inline-block;
+    background-color: #DDD;
+}
+.feature-link{
+    color: #EA625C;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; 
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+.feature-link:hover{
+    color: green;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%; 
+    text-transform: uppercase;
+}
+.info-section{
+    padding: 70px;
+}
+.info{
+    padding: 110px 0;
+    background-image: url("../Images/watch-in-hand.jpg");
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+.info-sport{
+    width: 490px;
+    height: 387px;
+}
+.info-title{
+    margin-bottom: 30px;
+    color: #000;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+.info-sport-inner{
+    display: flex;
+    align-items: start;
+}
+.info-line{
+    width: 3px;
+    height: 96px;
+    margin-right: 40px;
+    display: inline-block;
+    background-color: #000;
+}
+.info-text{
+    margin-bottom: 30px;
+    color: #777;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+}
+.info-link{
+    width: 260px;
+    height: 51px;
+    padding: 12px;
+    display: inline-block;
+    color: #FFF;
+    background-color: #EA625C;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+.info-link:hover{
+    width: 260px;
+    height: 51px;
+    padding: 12px;
+    display: inline-block;
+    color: #EA625C;
+    background-color: white;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+    text-transform: uppercase;
+    border: 2px solid #EA625C;
+}
+/* Feature style end  */
+
+/* footer style start  */
+footer{
+    padding: 303px 0 239px 0;
+    background-image: url("../Images/runners.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* background-position: 1500px 800px; */
+}
+.footter-sport{
+    width: 490px;
+    height: 387px;
+    margin-left: 620px;
+}
+.footter-title{
+    margin-bottom: 30px;
+    color: #fff;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
+}
+.footter-sport-inner{
+    display: flex;
+    align-items: start;
+}
+.footter-line{
+    width: 3px;
+    height: 120px;
+    margin-right: 40px;
+    display: inline-block;
+    background-color: #fff;
+}
+.footter-text{
+    margin-bottom: 30px;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; 
+}
+.footter-link{
+    width: 260px;
+    height: 51px;
+    padding: 12px;
+    display: inline-block;
+    color: #FFF;
+    background-color: #EA625C;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+    text-transform: uppercase;
+    transition: all 0.5s;
+}
+.footter-link:hover{
+    width: 260px;
+    height: 51px;
+    padding: 12px;
+    display: inline-block;
+    color: #EA625C;
+    background-color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; 
+    text-transform: uppercase;
+    border: 2px solid #EA625C;
+}
+
+
+/* footer style end  */
